@@ -1,0 +1,52 @@
+{
+  "name": "@geoharkat/dlis-parser",
+  "version": "1.0.4",
+  "description": "Parse RP66 V1 (DLIS) well-log binary files — browser + Node.js, zero dependencies",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "files": [
+    "src/",
+    "types/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "dlis",
+    "rp66",
+    "rp66v1",
+    "well-log",
+    "wireline",
+    "petrophysics",
+    "oilfield",
+    "parser",
+    "binary",
+    "log-curve"
+  ],
+  "author": {
+    "name": "Ismail Harkat",
+    "email": "geoharkat@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geoharkat/dlis-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geoharkat/dlis-parser/issues",
+    "email": "geoharkat@gmail.com"
+  },
+  "homepage": "https://github.com/geoharkat/dlis-parser#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
